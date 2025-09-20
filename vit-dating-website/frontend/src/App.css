@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  background-color: #fef6f6; /* light background for app */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App-header {
+  background-color: #ff5864; /* attractive pink/red header */
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #fff8f8;
+}
